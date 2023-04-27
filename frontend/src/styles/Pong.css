@@ -1,0 +1,204 @@
+
+.a_button, .a_button:hover, .a_button:active
+{
+	color: rgb(255, 255, 255);
+}
+
+#notFound
+{
+  margin-top: 2em;
+  display: none;
+  font-size: 2em;
+}
+
+#watch
+{
+  display:none
+}
+
+#link_matchmaking
+{
+  text-decoration: none;
+}
+#name_matchmaking {
+   font-weight : bold;
+   font-size: 1.3em;
+   padding-left : 10px;
+   padding-right : 10px;
+   color : #8380e1;
+}
+
+#scores{
+    text-align: center;
+    color: black
+}
+
+#game-buttons {
+    text-align: center;
+    color: black;
+    list-style: none;
+    background-color: #eeeeee;
+
+}
+
+#card_play {
+	background-color:#eeeeee;
+	margin: 1em;
+}
+
+#game-button {
+    display: inline-block;
+}
+
+#visible {
+	opacity: 100;
+  position:relative;
+	left:-5px;
+}
+
+#visible2 {
+	opacity: 100;
+  position:relative;
+	left:-5px;
+}
+
+#timer, .score
+{
+  display:inline-block;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#button, .button {
+    box-shadow: 4px 6px 7px -1px #606891;
+    background-color: #8380e1;
+    border-radius:15px;
+    border-color: black;
+    display:inline-block;
+    cursor:pointer;
+    color: black;
+    font-family:Courier New;
+    font-size:15px;
+    padding:7px 29px;
+    text-decoration:none;
+    margin : 10px;
+}
+#button:hover, .a_button:hover{
+	background-color:#a2a1d2;
+}
+#button:active, .a_button:active {
+	position:relative;
+	top:1px;
+}
+
+ .nolog42{
+  display:none !important
+
+}
+
+#buttonAvatar, .buttonAvatar {
+  box-shadow: 4px 6px 7px -1px #606891;
+  background-color: #8380e1;
+  border-style: solid;
+  border-radius:56px;
+  border-color: rgb(144, 116, 163);
+  cursor:pointer;
+  padding:4px 4px;
+}
+
+#buttonAvatar:hover, .a_button:hover{
+background-color:#a2a1d2;
+}
+
+#buttonAvatar:active, .a_button:active {
+position:relative;
+top:1px;
+background-color: #524ecf;
+border-color: rgb(45, 53, 160);
+}
+
+
+#pong, .pong {
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+#canvas{
+	border-color: #8380e1;
+  width: 90%;
+  height: 90%;
+  padding : 5px;
+}
+
+#text-right
+{
+	text-align: right;
+}
+
+#text-center
+{
+	text-align: center;
+}
+
+  #notification {
+	color: #eeeeee;
+  }
+
+  .lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 30px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background:#eeeeee;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}

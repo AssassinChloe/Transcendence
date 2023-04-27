@@ -1,0 +1,16 @@
+.horizontal {
+    border: solid 4px whitesmoke;
+    /* height: 250px; */
+}
+
+#username{
+    text-align: center;
+    color: #9c03e4
+}
+
+#card{
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    width: 200px
+}

@@ -1,0 +1,19 @@
+.ContextMenu {
+    position: absolute;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    width: 10rem;
+    z-index: 1;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li:not(:last-child) {
+    margin: 0 0 1rem;
+  }

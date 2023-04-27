@@ -1,0 +1,74 @@
+/* MENU BURGER*/
+.fa-bars{
+    color: #8380e1;
+    border-radius: 100px;
+}
+.nav{
+    position: sticky !important;
+    top: 10px;
+    z-index: 2;
+}
+#mobile{
+    display: none;
+}
+.menu label{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    padding: 0.9rem;
+    border-radius: 30px;
+
+}
+.menu input[type=checkbox]:checked + ul{
+    display: flex;
+    flex-flow : column wrap;
+    width:25%;
+}
+.menu ul{
+    display: none;
+    list-style-type: none;
+    background-color: #eeeeee;
+    padding: 0px 8px;
+    border-radius: 10px;
+}
+.menu ul li{
+    flex: 1 1 auto;
+    text-align: center;
+}
+.deroulant:active a{
+    color:#eeeeee
+}
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: #8380e1;
+    padding: 4px 0px;
+}
+.menu a:active{
+        color: white;
+}
+
+.menu a:hover{
+    color: black;
+}
+
+/*MENU SUR GRAND ÉCRAN*/
+@media screen and (min-width: 768px){
+    .nav{
+        position: sticky;
+        top:0;
+        z-index: 1;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .menu label, .menu input{
+        display: none;
+    }
+    
+    .menu input[type=checkbox]:checked + ul, .menu ul{ 
+        display: flex;
+        flex-flow: row wrap;
+        background-color: #eeeeee;
+    }
+}
